@@ -226,6 +226,7 @@ func main() {
 		LengthPool: 50,
 		CountPool:  5,
 	}
+
 	fmt.Println(ReadData(swimming))
 	walking := Walking{
 		Training: Training{
